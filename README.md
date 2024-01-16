@@ -55,3 +55,6 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
+
+## TailwindCSS Installation
+[Tailwindcss + VUEJS](https://tailwindcss.com/docs/guides/vite#vue)

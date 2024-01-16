@@ -8,37 +8,19 @@ defineProps({
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
+  <div class="mx-48">
+    <div class="p-4 m-auto border-2 rounded-lg bg-slate-800 text-white">
+      <h1 class="text-3xl font-bold">Hello world!</h1>
+      <p class="mt-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam qui minima autem nobis
+        animi perspiciatis deleniti quaerat, recusandae officiis ea totam quisquam repellat quidem
+        perferendis ad! Vel officia voluptatibus ipsam.
+      </p>
+      <button class="bg-indigo-600 hover:bg-indigo-800 mt-4 font-bold py-2 px-4 rounded">
+        Click Me
+      </button>
+    </div>
   </div>
 </template>
 
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
-}
-</style>
+<style scoped></style>

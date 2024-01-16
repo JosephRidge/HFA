@@ -35,7 +35,6 @@ import SupportIcon from './icons/IconSupport.vue'
     <a href="https://on.cypress.io/component" target="_blank" rel="noopener"
       >Cypress Component Testing</a
     >.
-
     <br />
 
     More instructions are available in <code>README.md</code>.
